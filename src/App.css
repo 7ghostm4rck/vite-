@@ -1,0 +1,31 @@
+/*.margen-superior-main {
+    margin-top: 50px;
+    padding: 20px;
+}*/
+
+/* Estilos generales del nav */
+nav {
+  background-color: #1a1a1a; /* Fondo oscuro */
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+}
+
+/* Marca o título */
+nav .logo {
+  font-weight: bold;
+  color: white;
+  margin-right: 20px;
+}
+
+/* Links */
+nav a {
+  color: white; /* Texto blanco */
+  margin: 0 12px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #f0db4f; /* Amarillo al pasar el mouse */
+}
