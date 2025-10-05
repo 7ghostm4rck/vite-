@@ -20,6 +20,14 @@ const TablaCategorias = ({ categorias }) => {
       </tbody>
     </Table>
   );
+  
+  <ModalRegistroCategoria
+    mostrarModal={mostrarModal}
+    setMostrarModal={setMostrarModal}
+    nuevaCategoria={nuevaCategoria}
+    manejoCambioInput={manejoCambioInput}
+    agregarCategoria={agregarCategoria}
+  />
 };
 
 export default TablaCategorias;
