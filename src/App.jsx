@@ -1,16 +1,15 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-//Importar componente Encabezado.
-import Encabezado from "./components/Encabezado";
-//Importar las vistas.
+// Importar componente Encabezado.
+import Encabezado from "./components/productos/Encabezado";
+// Importar las vistas.
 import Login from "./views/Login";
 import Inicio from "./views/Inicio";
 import Categorias from "./views/Categorias";
 import Productos from "./views/Productos";
-
-
 import Catalogo from "./views/Catalogo";
-//Importar archivo de estilos.
+// Importar archivo de estilos.
 import "./App.css";
+
 const App = () => {
   return (
     <Router>
@@ -27,5 +26,6 @@ const App = () => {
       </main>
     </Router>
   );
-}
+};
+
 export default App;
