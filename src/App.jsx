@@ -6,7 +6,9 @@ import Login from "./views/Login";
 import Inicio from "./views/Inicio";
 import Categorias from "./views/Categorias";
 import Productos from "./views/Productos";
-import Catalogo from "./views/Catalogo";
+import Catalogo from "./views/Catalogo";  
+import Estadisticas from "./views/Estadisticas";
+
 // Importar archivo de estilos.
 import "./App.css";
 
@@ -21,6 +23,7 @@ const App = () => {
           <Route path="/categorias" element={<Categorias />} />
           <Route path="/productos" element={<Productos />} />
           <Route path="/catalogo" element={<Catalogo />} />
+          <Route path="/estadisticas" element={<Estadisticas />}/>
           <Route path="*" element={<h2>404 - Página no encontrada</h2>} />
         </Routes>
       </main>
